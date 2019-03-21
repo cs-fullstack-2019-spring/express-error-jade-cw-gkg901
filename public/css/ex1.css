@@ -1,0 +1,40 @@
+body{
+    margin: 12% 10%;
+}
+
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-auto-rows: 75px 125px 100px;
+
+}
+
+header{
+    grid-row: 1;
+    grid-column: 1/5;
+    background-color: dodgerblue;
+
+}
+
+maincontent{
+    grid-row: 2/5;
+    grid-column: 2/5;
+    background-color: limegreen;
+}
+
+twin{
+    grid-row: 5/7;
+    grid-column: 2/5;
+    background-color: orange;
+}
+
+footer{
+    grid-row: 7;
+    grid-column: 1/5;
+    background-color: mediumblue;
+
+}
+
+
+
